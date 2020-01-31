@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>blackbox_control</name>
+  <version>0.0.1</version>
+  <description>BLACKBOX Control</description>
+  <maintainer email="balint.tahi@ppm.no">Balint Tahi</maintainer>
+  <license>Apache 2.0</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <test_depend>rosunit</test_depend>
+</package>

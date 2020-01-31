@@ -1,0 +1,6 @@
+<launch>
+    <arg name="BAGS"/>
+    <arg name="START_POS" default="0"/>
+
+    <node pkg="blackbox_control" type="rosbag.sh" name="player" output="screen" args="$(arg BAGS) $(arg START_POS)"/>
+</launch>

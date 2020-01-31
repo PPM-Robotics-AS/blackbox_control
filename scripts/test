@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#cd ~/blackbox_ws
+#catkin_make utest
+#rosrun blackbox_control utest
+
+#source /opt/ros/kinetic/setup.bash
+
+roscd blackbox_control
+cd ..
+cd ..
+rm ./devel/lib/blackbox_control/utest
+catkin run_tests
+rosrun blackbox_control utest
